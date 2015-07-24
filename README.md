@@ -35,8 +35,8 @@ After extracting the zip file, UCI HAR Dataset folder is put under the folder
 ~/R/3-Getting and Cleaning Data/Project
 
 Folder structure is as follows:
-~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset
-~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test
-~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test\Inertial Signals
-~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train
-~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train\Inertial Signals
+* ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset
+* ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test
+* ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test\Inertial Signals
+* ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train
+* ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train\Inertial Signals
