@@ -16,3 +16,34 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+################################################################################
+# run_analysis.R by aurelius2015 (github.com)
+# Peer Assessments / Getting and Cleaning Data Course Project
+################################################################################
+
+# Raw Data source:
+# https://d396qusza40orc.cloudfront.net/
+#       getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+# You should create one R script called run_analysis.R that does the following. 
+# 1.	Merges the training and the test sets to create one data set.
+# 2.	Extracts only the measurements on the mean and standard deviation for 
+#       each measurement. 
+# 3.	Uses descriptive activity names to name the activities in the data set
+# 4.	Appropriately labels the data set with descriptive variable names. 
+# 5.	From the data set in step 4, creates a second, independent tidy data set 
+#       with the average of each variable for each activity and each subject.
+
+# getdata_projectfiles_UCI HAR Dataset.zip is downloaded and put in the 
+# following  directory: ~/R/3-Getting and Cleaning Data/Project
+# After extracting the zip file, UCI HAR Dataset folder is put under the folder
+# ~/R/3-Getting and Cleaning Data/Project
+# 
+# Folder structure is as follows:
+# ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset
+# ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test
+# ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test\Inertial Signals
+# ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train
+# ~\R\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train\Inertial Signals
